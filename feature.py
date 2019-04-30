@@ -5,11 +5,11 @@ class Feature(object):
         self.id = None
 
     def set_id(self, id):
-        print("Setting ID v2 for version {}".format(self.version))
+        print("Setting ID v3 for version {}".format(self.version))
         self.id = id
 
     def get_id(self):
-        print("Getting ID v2 for version {}".format(self.version))
+        print("Getting ID v3 for version {}".format(self.version))
         return self.id
 
 
